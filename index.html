@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="money-check-solid.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="element1">
+                <div class="logo"></div>
+               <p class="heading"> Financial Calculator </p>
+            </div>
+            <div class="element2">
+                <div class="ele-mem">
+                    <p class="mem1">Loan Cal</p>
+                    <a href="index2.html" target="_blank"><p class="mem1">SIP Cal</p></a>
+                    <button class="theme">Theme</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-box">
+            <div class="outer1">
+                    <div class="inner1">
+                        <div class="in11"><input type="range" min="0" max="1000000" step="5000" value="0" id="slide1"></div>
+                        <div class="in12"><input type="text" value="0" id="output1"><span>₹</span></div>
+                    </div>
+
+                    <div class="inner2">
+                        <div class="in21"><input type="range" min="0" max="30" step="0.1" value="0" id="slide2"></div>
+                        <div class="in22"><input type="text" value="0" id="output2"><span>%</span></div>
+                    </div>
+
+                    <div class="inner3">
+                        <div class="in31"><input type="range" min="0" max="30" step="1" value="0" id="slide3"></div>
+                        <div class="in32"><input type="text" value="0" id="output3"><span>Yr</span></div>
+                    </div>
+            </div>
+            
+            <div class="outer2">
+                <div class="inner11">
+                    <p> <span id="emi">₹ 0</span></p>
+                </div>
+                <div class="inner22">
+                    <p>Your Amount : <span id="slide-output1">0 ₹</span></p>
+                    <p>Intrest Rate : <span id="slide-output2">0 %</span></p>
+                    <p>Tenure : <span id="slide-output3">0</span></p>
+                    <p>Total Intrested Paid : <span id="slide-output4">₹ 0</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

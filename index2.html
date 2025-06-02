@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP Calculator</title>
+    <link rel="icon" href="money-check-solid.ico">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <header>
+        <div class="navbar">
+            <div class="nav1">
+                <div class="logo"></div>
+                <h1>SIP Calculator</h1>
+            </div>
+
+            <div class="nav2">
+                <div class="ele-mem2">
+                    <p class="mem2">SIP Cal</p>
+                    <a href="index.html" target="_blank"><p class="mem2">Loan Cal</p></a>
+                    <button class="theme2">Theme</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-box">
+            <div class="outer1">
+                <div class="inner1">
+                    <div class="in11"><input type="range" min="500" max="10000" step="500" class="slide1"></div>
+                    <div class="in12"><input type="text" class="slide-output1"><span>₹</span></div>
+                </div>
+
+                <div class="inner2">
+                    <div class="in21"><input type="range" min="0" max="30" step="1" class="slide2"></div>
+                    <div class="in22"><input type="text" placeholder="Return Rate" class="slide-output2"><span>%</span></div>
+                </div>
+                
+                <div class="inner3">
+                    <div class="in31"><input type="range" min="0" max="30" step="1" class="slide3"></div>
+                    <div class="in32"><input type="text" placeholder="Year" class="slide-output3"><span>Yr</span></div>
+                </div>
+            </div>
+            <div class="outer2">
+                <div class="ret">
+                    <p class="result">0</p>
+                </div>
+                <div class="ret-info">
+                    <p>Monthly Investment : <span id="output1">0 ₹</span></p>
+                    <p>Excepted Rate : <span id="output2">0 %</span></p>
+                    <p>Year : <span id="output3">0 Yr</span></p>
+                    <p>Amount Invested : <span id="output4">0 ₹</span></p>
+                </div>
+            </div>        
+        </div>
+    </main>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
